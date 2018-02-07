@@ -13,6 +13,7 @@ import android.widget.Toast;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 import com.google.firebase.iid.FirebaseInstanceId;
 import com.google.firebase.messaging.FirebaseMessaging;
 
@@ -48,8 +49,10 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
         setSupportActionBar(toolbar);
         FirebaseMessaging.getInstance().subscribeToTopic("notice");
         FirebaseInstanceId.getInstance().getToken();
+        MobileAds.initialize(this,"ca-app-pub-9712488676365219~5196759048");
         mAdView = (AdView) findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
+
         mAdView.loadAd(adRequest);
         if(CheckNetwork.isInternetAvailable(MainActivity.this)) //returns true if internet available
         {
