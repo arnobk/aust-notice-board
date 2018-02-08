@@ -16,6 +16,7 @@ import android.widget.Toast;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 
 public class NoticeDetailsActivity extends AppCompatActivity implements SwipeRefreshLayout.OnRefreshListener {
     public SwipeRefreshLayout mSwipeRefreshLayout;
@@ -32,6 +33,7 @@ public class NoticeDetailsActivity extends AppCompatActivity implements SwipeRef
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
+        MobileAds.initialize(this,"ca-app-pub-9712488676365219~5196759048");
         mAdView = (AdView) findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
