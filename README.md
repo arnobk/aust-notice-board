@@ -1,7 +1,7 @@
 # AUST NOTICE BOARD
 
 ###### Description
-This is an unofficial app for viewing notice of Ahsanullah University of Science and University. This app fetch latest notice inside it from [aust.edu](http://www.aust.edu/news_events.htm) and display in a listview. Allowing users to view details of the notice.
+This is an unofficial app for viewing notice of Ahsanullah University of Science and University. This app fetch latest notice inside it from [aust.edu](http://www.aust.edu/news_events.htm) and display in a listview allowing users to view details of the notice and now packed with Push Notification. Get all the latest notice delivered into your device as soon as it is posted!
 
 ## Changelog
 
