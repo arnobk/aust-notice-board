@@ -19,7 +19,7 @@ If you have any suggestion improving this app then please leave a feedback [here
 
 ## Changelog
 
-###### Aust Notice Board 2.0 (Feb 8, 2018)
+###### Aust Notice Board 2.0 (Feb 24, 2018)
 - Added Push Notification 
 - Added few admob ads to keep Push Notification server running
 - Added support to download PDF files directly from the app
