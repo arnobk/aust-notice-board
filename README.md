@@ -5,7 +5,8 @@ This is an unofficial app for viewing notice of Ahsanullah University of Science
 
 ## Downloads
 > [AUST Notice Board 2.0.apk](https://github.com/igeniusarnob/aust-notice-board/raw/master/app/release/Aust%20Notice%20Board%202.0%20Final.apk)
-> [AUST Notice Board 2.0.apk](https://github.com/igeniusarnob/aust-notice-board/raw/master/app/release/Aust%20Notice%20Board%202.0%20Final%20Xiaomi.apk) [For Xiaomi Devices. If you find and UI color problem with above apk then try this one]
+
+> [AUST Notice Board 2.0 Xiaomi.apk](https://github.com/igeniusarnob/aust-notice-board/raw/master/app/release/Aust%20Notice%20Board%202.0%20Final%20Xiaomi.apk) (For Xiaomi Devices. If you find and UI color problem with above apk then try this one)
 
 ## Bug Report
 If you find any bug then please report [here](#).
